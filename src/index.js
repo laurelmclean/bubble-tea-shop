@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css';
 import App from './components/App';
 import Home from './components/Home/Home';
-import Order from './components/Order/Order';
+import Menu from './components/Menu/Menu';
 import About from './components/About/About';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -17,7 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<Home />} />
-        <Route path="order" element={<Order />} />
+        <Route path="order" element={<Menu />} />
         <Route path="/about" element={<About />} />
       </Route>
     </Routes>

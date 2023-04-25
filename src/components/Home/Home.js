@@ -10,11 +10,6 @@ export default function Home() {
                 onClick={(e) => {
                     navigate(`/order`)
                 }}>Place Order</button>
-            <button
-                aria-label="Submit"
-                onClick={(e) => {
-                    navigate(`/about`)
-                }}>About</button>
         </>
     )
 };

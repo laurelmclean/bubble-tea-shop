@@ -2,8 +2,26 @@ import React from 'react';
 import Drink from '../Drink/Drink';
 import data from '../../drink-menu.js';
 import { useState } from 'react';
+import Receipt from '../Receipt/Receipt';
+import './Menu.css'
 
 function Menu() {
+    const [order, setOrder] = useState({});
+
+    const addToOrder = key => {
+        setOrder(prevOrder => {
+            return { ...prevOrder, [key]: prevOrder[key] + 1 || 1 };
+        });
+    };
+
+    const removeFromOrder = key => {
+        setOrder(prevOrder => {
+            const newOrder = { ...prevOrder };
+            delete newOrder[key];
+            return newOrder;
+        });
+    };
+
     const [query, setQuery] = useState('');
     const drinks = data.filter((obj) => {
         // true if query is in title
@@ -17,6 +35,7 @@ function Menu() {
                 image={image}
                 desc={desc}
                 price={price}
+                addToOrder={addToOrder}
             />
         )
     });
@@ -36,6 +55,7 @@ function Menu() {
             <section>
                 {drinks.length > 0 ? drinks : "No results match your search"}
             </section>
+            <Receipt order={order} removeFromOrder={removeFromOrder} />
         </article>
     )
 };

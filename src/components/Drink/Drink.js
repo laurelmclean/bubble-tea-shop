@@ -1,18 +1,19 @@
 import React from "react";
 import formatPrice from "../../helpers";
+import './Drink.css';
 
 function Drink(props) {
-        const { image, name, price, desc } = props;
+        const { image, name, price, desc, addToOrder, index } = props;
         return (
-            <li>
+            <li className="menu-drinks">
                 <img src={image} width="300" height="300" alt={name} />
-                <h3>
+                <h3 className="drinks-name">
                     {name}
-                    {formatPrice({price})}
+                    {formatPrice(price)}
                 </h3>
                 <p>{desc}</p>
                 <button
-                    onClick={() => this.props.addToOrder(this.props.index)}
+                    onClick={() => addToOrder(name)}
                 >
                     Add to Order
                 </button>
