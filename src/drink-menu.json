@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Jasmine Bubble Tea",
+        "image": "/images/jasmine.jpg",
+        "desc": "Jasmine bubble tea has a light floral taste. Jasmine green tea is a scented tea made by combining jasmine petals with green tea leaves.",
+        "price": 630
+    },
+    {
+        "name": "Matcha Bubble Tea",
+        "image": "/images/matcha.jpg",
+        "desc": "Matcha bubble tea is made from premium green tea powder. It has a slightly bitter taste and a strong green tea flavor.",
+        "price": 680
+    },
+    {
+        "name": "Taro Bubble Tea",
+        "image": "/images/taro.jpg",
+        "desc": "Taro bubble tea has a creamy texture and a sweet, nutty flavor. It is made from taro root, which is a starchy root vegetable.",
+        "price": 650
+    },
+    {
+        "name": "Honeydew Bubble Tea",
+        "image": "/images/honeydew.jpg",
+        "desc": "Honeydew bubble tea is a refreshing drink with a sweet, fruity flavor. It is made with honeydew melon juice and milk.",
+        "price": 700
+    },
+    {
+        "name": "Passion Fruit Bubble Tea",
+        "image": "/images/passionfruit.jpg",
+        "desc": "Passion fruit bubble tea is a tropical drink with a tangy and sweet taste. It is made with passion fruit juice and black tea.",
+        "price": 750
+    },
+    {
+        "name": "Lychee Bubble Tea",
+        "image": "/images/lychee.jpg",
+        "desc": "Lychee bubble tea has a sweet and fragrant taste. It is made with lychee juice and black tea, and has a fruity aroma.",
+        "price": 700
+    },
+    {
+        "name": "Rose Bubble Tea",
+        "image": "/images/rose.jpg",
+        "desc": "Rose bubble tea is a fragrant and floral drink. It is made with rose water and black tea, and has a delicate and sweet taste.",
+        "price": 720
+    },
+    {
+        "name": "Mango Bubble Tea",
+        "image": "/images/mango.jpg",
+        "desc": "Mango bubble tea is a fruity drink with a sweet and tropical taste. It is made with mango juice and black tea, and has a smooth texture.",
+        "price": 680
+    },
+    {
+        "name": "Blueberry Bubble Tea",
+        "image": "/images/blueberry.jpg",
+        "desc": "Blueberry bubble tea is a refreshing drink with a sweet and tart taste. It is made with blueberry juice and green tea, and has a fruity aroma.",
+        "price": 730
+    },
+    {
+        "name": "Ginger Bubble Tea",
+        "image": "/images/ginger.jpg",
+        "desc": "Ginger bubble tea is a spicy and warming drink. It is made with fresh ginger juice and black tea, and has a slightly sweet taste.",
+        "price": 650
+    }
+]
