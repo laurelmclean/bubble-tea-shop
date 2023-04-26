@@ -10,6 +10,7 @@ function Menu() {
 
     const addToOrder = key => {
         setOrder(prevOrder => {
+            console.log(prevOrder)
             return { ...prevOrder, [key]: prevOrder[key] + 1 || 1 };
         });
     };

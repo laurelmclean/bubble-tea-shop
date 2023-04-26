@@ -13,7 +13,7 @@ function Drink(props) {
                 </h3>
                 <p>{desc}</p>
                 <button
-                    onClick={() => addToOrder(name)}
+                    onClick={() => addToOrder(name, price)}
                 >
                     Add to Order
                 </button>
