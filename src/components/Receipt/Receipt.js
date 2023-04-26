@@ -1,6 +1,7 @@
 import React from "react";
 import formatPrice from "../../helpers";
 import data from '../../drink-menu.js';
+import { useNavigate } from 'react-router-dom';
 
 function Receipt ({ order, removeFromOrder }) {
     // get array of drink names in the order object
@@ -15,6 +16,8 @@ function Receipt ({ order, removeFromOrder }) {
     });
   
     const total = items.reduce((acc, { cost }) => acc + cost, 0);
+
+    const navigate = useNavigate();
   
     return (
       <div>
@@ -28,6 +31,8 @@ function Receipt ({ order, removeFromOrder }) {
           ))}
         </ul>
         <h3>Total: {formatPrice(total)}</h3>
+        <button onClick={(e) => {
+                    navigate(`/cart`)}}>Checkout</button>
       </div>
     );
   };

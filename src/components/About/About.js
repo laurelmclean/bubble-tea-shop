@@ -1,14 +1,15 @@
 import React from 'react';
+import './About.css'
 
 function About() {
     return (
         <article className='About'>
             <figure className="About-image">
-                <img src={`${process.env.PUBLIC_URL}/images/jasmine.jpg`}
+                <img src={`${process.env.PUBLIC_URL}/images/matcha.jpg`}
                     height="auto"
-                    alt="Jasmine Bubble Tea"
+                    alt="Matcha Bubble Tea"
                 />
-                <figcaption>Jasmine Bubble Tea</figcaption>
+                <figcaption>Matcha Bubble Tea</figcaption>
             </figure>
             <section className="About-info">
                 <header>

@@ -42,8 +42,8 @@ function Menu() {
     });
 
     return (
-        <article>
-            <section>
+        <article className="menu-container">
+            <section className="drinks-column">
                 <form>
                     <input
                         value={query}
@@ -52,11 +52,11 @@ function Menu() {
                         aria-label="Search by drink name"
                     />
                 </form>
-            </section>
-            <section>
                 {drinks.length > 0 ? drinks : "No results match your search"}
             </section>
-            <Receipt order={order} removeFromOrder={removeFromOrder} />
+            <section className="receipt-column">
+                <Receipt order={order} removeFromOrder={removeFromOrder} />
+            </section>
         </article>
     )
 };

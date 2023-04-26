@@ -6,7 +6,7 @@ function Drink(props) {
         const { image, name, price, desc, addToOrder, index } = props;
         return (
             <li className="menu-drinks">
-                <img src={image} width="300" height="300" alt={name} />
+                <img src={image} width="150" height="150" alt={name} />
                 <h3 className="drinks-name">
                     {name}
                     {formatPrice(price)}

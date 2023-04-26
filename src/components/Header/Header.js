@@ -9,7 +9,7 @@ export default function Header() {
                 <h1>Laurel's Bubble Tea Garden</h1>
                 <h2 className="Title-Subtitle">Where every sip is a delight!</h2>
 
-                <nav role="navigation">
+                <nav className="menuItems" role="navigation">
                     <NavLink
                         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
                         to="/order">Menu</NavLink>
