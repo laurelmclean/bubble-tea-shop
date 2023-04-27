@@ -7,6 +7,7 @@ import Menu from './components/Menu/Menu';
 import About from './components/About/About';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Receipt2 from './components/Receipt/Receipt2'
 
 
 const rootElement = document.getElementById('root');
@@ -17,8 +18,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<Home />} />
-        <Route path="order" element={<Menu />} />
+        <Route path="/order" element={<Menu />} />
         <Route path="/about" element={<About />} />
+        {/* <Route path="/cart" element={<Receipt2 />} /> */}
       </Route>
     </Routes>
   </Router>,

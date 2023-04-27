@@ -13,6 +13,8 @@
     margin-bottom: 5px;
     clear: both;
     overflow: hidden;
+
+
   }
   .menu-drinks p {
     margin: 0;
@@ -21,17 +23,16 @@
   .menu-drinks .drinks-name {
     margin: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
   }
   .menu-drinks .price {
     font-size: 1.4rem;
-    justify-content: flex-end;
   }
   .menu-drinks img {
     float: left;
     margin-right: 1rem;
   }
+  
 
 li {
     list-style: none;
@@ -71,11 +72,11 @@ button:hover:after {
   left: 0px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     button {
     padding: 13px 50px 13px;
   }
-}
+} */
 
 .menu-drinks p {
   font-size: 1rem;

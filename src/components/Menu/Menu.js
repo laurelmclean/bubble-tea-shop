@@ -2,7 +2,7 @@ import React from 'react';
 import Drink from '../Drink/Drink';
 import data from '../../drink-menu.js';
 import { useState } from 'react';
-import Receipt from '../Receipt/Receipt';
+import Receipt2 from '../Receipt/Receipt2';
 import './Menu.css'
 
 function Menu() {
@@ -47,7 +47,7 @@ function Menu() {
                 <form>
                     <input
                         value={query}
-                        placeholder="search drink name"
+                        placeholder="search 🧋 drink name..."
                         onChange={(evt) => setQuery(evt.target.value)}
                         aria-label="Search by drink name"
                     />
@@ -55,7 +55,7 @@ function Menu() {
                 {drinks.length > 0 ? drinks : "No results match your search"}
             </section>
             <section className="receipt-column">
-                <Receipt order={order} removeFromOrder={removeFromOrder} />
+                <Receipt2 order={order} removeFromOrder={removeFromOrder} />
             </section>
         </article>
     )

@@ -1,24 +1,15 @@
-input {
-    outline: 0; 
-    background: var(--color-light);
-    padding: 0 1.6rem;
-    border-radius: var(--rad);
-    appearance: none; 
-    transition: all var(--dur) var(--bez);
-    transition-property: width, border-radius;
-    z-index: 1;
-    position: relative;
-  }
-
-  .menu-container {
+ .menu-container {
     display: flex;
     flex-direction: row;
 }
 
 .drinks-column {
     width: 50%;
+    min-width: 500px;
     padding-right: 20px;
     box-sizing: border-box;
+    height: 80vh;
+    overflow-y: auto;
 }
 
 .receipt-column {
@@ -26,3 +17,22 @@ input {
     padding-left: 20px;
     box-sizing: border-box;
 }
+
+.drinks-column::-webkit-scrollbar-thumb {
+    background-color: #4499df;
+    border-radius: 20px;
+ }
+ .drinks-column::-webkit-scrollbar {
+    background-color: #90c4ef;
+    width: 4x;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+ .menu-container input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+ }
