@@ -5,7 +5,7 @@ import './Drink.css';
 function Drink(props) {
         const { image, name, price, desc, addToOrder } = props;
         return (
-            <li className="menu-drinks">
+            <article className="menu-drinks">
                 <img src={image} width="150" height="150" alt={name} />
                 <h3 className="drinks-name">
                     {name}
@@ -19,7 +19,7 @@ function Drink(props) {
                 >
                     Add to Order
                 </button>
-            </li>
+            </article>
         );
 }
 

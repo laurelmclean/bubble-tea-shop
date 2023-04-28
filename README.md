@@ -53,7 +53,7 @@ You may also see any lint errors in the console.
 
 ## Wire Frames
 
-View wireframes on Figma: 
+View wireframes on Figma: https://www.figma.com/file/NVp0zYw3Vz0zpQX0RIPVCG/Bubble-Tea-Shop?node-id=0%3A1&t=71Ox1YavxP4glREd-1
 
 ## Run Locally
 

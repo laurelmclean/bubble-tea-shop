@@ -21,7 +21,7 @@ function Receipt ({ order, removeFromOrder }) {
     const navigate = useNavigate();
   
     return (
-      <div>
+      <article>
         <h2>Order Summary</h2>
         <ul>
           {items.map(({ drinkName, quantity, price, cost }) => (
@@ -34,7 +34,7 @@ function Receipt ({ order, removeFromOrder }) {
         <h3>Total: {formatPrice(total)}</h3>
         <button onClick={(e) => {
                     navigate(`/cart`)}}>Checkout 🛒</button>
-      </div>
+      </article>
     );
   };
 
