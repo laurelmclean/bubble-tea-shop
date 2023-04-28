@@ -6,16 +6,17 @@ export default function Header() {
     return (
         <section className="Title">
             <header>
-                <h1>Laurel's Bubble Tea Garden</h1>
+                <div>
+                <h1>🧋 Laurel's Bubble Tea Garden</h1>
                 <h2 className="Title-Subtitle">Where every sip is a delight!</h2>
-
+                </div>
                 <nav className="menuItems" role="navigation">
                     <NavLink
                         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
-                        to="/order">Menu</NavLink>
+                        to="/">Home</NavLink>
                     <NavLink
                         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
-                        to="/">Cart</NavLink>
+                        to="/order">Menu</NavLink>
                     <NavLink
                         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
                         to="/about">About</NavLink>

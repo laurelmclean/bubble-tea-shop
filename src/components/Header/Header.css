@@ -6,7 +6,7 @@
     padding: 1rem;
     background-color: #4499df;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+
   }
   
 .Title h1 {
@@ -20,7 +20,7 @@
     margin: 0;
     color: #ffe54c;
     text-align: left;
-    margin-top: 0.5rem;
+    margin-left: 2.5rem;
   }
   
   /* Navigation styles */
@@ -31,12 +31,15 @@
   }
   
   nav a {
-    color: #ffe54c;
+    color: black;
     text-decoration: none;
     margin-left: 1rem;
-    font-size: 1rem;
-    padding: 0.5rem;
-    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
     transition: all 0.2s ease-in-out;
   }
   
@@ -47,5 +50,5 @@
   /* Active link styles */
   .nav-link-active {
     background-color: #ffe54c;
-    color: #fff;
+    color: black;
   }

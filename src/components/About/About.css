@@ -3,6 +3,7 @@
 	flex-direction: row-reverse;
 	width: 960px;
 	margin: auto;
+    padding-top: 4rem;
 }
 
 .About .About-info {

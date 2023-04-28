@@ -1,6 +1,7 @@
  .menu-container {
     display: flex;
     flex-direction: row;
+    padding-top: 2rem;
 }
 
 .drinks-column {

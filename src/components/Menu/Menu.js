@@ -2,7 +2,7 @@ import React from 'react';
 import Drink from '../Drink/Drink';
 import data from '../../drink-menu.js';
 import { useState } from 'react';
-import Receipt2 from '../Receipt/Receipt2';
+import Receipt2 from '../Receipt/Receipt';
 import './Menu.css'
 
 function Menu() {

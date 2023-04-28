@@ -4,7 +4,7 @@ import data from '../../drink-menu.js';
 import { useNavigate } from 'react-router-dom';
 import './Receipt.css'
 
-function Receipt2 ({ order, removeFromOrder }) {
+function Receipt ({ order, removeFromOrder }) {
     // get array of drink names in the order object
     //map over array to create array of objects
     const items = Object.keys(order).map((drinkName) => {
@@ -38,4 +38,4 @@ function Receipt2 ({ order, removeFromOrder }) {
     );
   };
 
-export default Receipt2;
+export default Receipt;

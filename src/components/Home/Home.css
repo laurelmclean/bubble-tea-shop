@@ -1,5 +1,48 @@
-.home body {
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
     background-image: url('https://www.thespruceeats.com/thmb/_x5cGFh26Ecf32WFCyql4y9OLaA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/types-of-bubble-tea-766451-hero-01-a6dca4dd096a4d8abdde1a754766f851.jpg');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px #4499df5c;
+}
+
+
+.home-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url('https://food.unl.edu/newsletters/images/fresh-fruit.-colorful.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px #4499df5c;
+}
+
+.home-menu h1,
+.home-about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.home-menu h2,
+.home-about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home button {
+    background-color: #ffe54c;
 }
