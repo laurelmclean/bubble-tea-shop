@@ -1,54 +1,74 @@
 /* Header styles */
 .Title header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #4499df;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #4499df;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  }
-  
 .Title h1 {
-    font-size: 2rem;
-    margin: 0;
-    color: white;
-  }
-  
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
 .Title-Subtitle {
-    font-size: 1rem;
-    margin: 0;
-    color: #ffe54c;
-    text-align: left;
-    margin-left: 2.5rem;
-  }
-  
-  /* Navigation styles */
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  nav a {
-    color: black;
-    text-decoration: none;
+  font-size: 1rem;
+  margin: 0;
+  color: #ffe54c;
+  text-align: left;
+  margin-left: 2.5rem;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Active link styles */
+.nav-link-active {
+  background-color: #ffe54c;
+  color: black;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .Title-Subtitle {
     margin-left: 1rem;
-    font-size: 16px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    padding: 13px 20px 13px;
-    outline: 0;
-    border: 1px solid black;
-    transition: all 0.2s ease-in-out;
+    text-align: center;
   }
-  
-  nav a:hover {
-    background-color: #f2f2f2;
+
+  nav {
+    justify-content: flex-end;
+    margin-top: 1rem;
   }
-  
-  /* Active link styles */
-  .nav-link-active {
-    background-color: #ffe54c;
-    color: black;
-  }
+    .Title header {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      background-color: #4499df;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+}

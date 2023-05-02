@@ -1,46 +1,49 @@
+/* Mobile styles */
 .list-of-drinks {
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    padding-top: 5px;
-    margin-top: 2rem;
-    transform: translateZ(0);
-  }
-  .menu-drinks {
-    border-bottom: 2px solid #000;
-    border-top: 1px solid #000;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    margin-bottom: 5px;
-    clear: both;
-    overflow: hidden;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 5px;
+  margin-top: 2rem;
+  transform: translateZ(0);
+}
 
+.menu-drinks {
+  border-bottom: 2px solid #000;
+  border-top: 1px solid #000;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 5px;
+  clear: both;
+  overflow: hidden;
+}
 
-  }
-  .menu-drinks p {
-    margin: 0;
-    font-size: 1.8rem;
-  }
-  .menu-drinks .drinks-name {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  .menu-drinks .price {
-    font-size: 1.4rem;
-  }
-  .menu-drinks img {
-    float: left;
-    margin-right: 1rem;
-  }
-  
+.menu-drinks p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.menu-drinks .drinks-name {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-drinks .price {
+  font-size: 1.4rem;
+}
+
+.menu-drinks img {
+  float: left;
+  margin-right: 1rem;
+}
 
 li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-button {
+.menu-drinks button {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -49,35 +52,46 @@ button {
   border: 1px solid black;
   cursor: pointer;
   position: relative;
-  background-color: rgba(0, 0, 0, 0);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-button:after {
-  content: "";
   background-color: #ffe54c;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
+  margin-bottom: 2rem;
 
-button:hover:after {
-  top: 0px;
-  left: 0px;
 }
-
-/* @media (min-width: 768px) {
-    button {
-    padding: 13px 50px 13px;
-  }
-} */
 
 .menu-drinks p {
   font-size: 1rem;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+.menu-drinks button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .menu-drinks button:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+
+  .menu-drinks button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
 }

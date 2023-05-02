@@ -1,4 +1,80 @@
+/* Mobile styles */
 .remove-button {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 2px 5px 2px 5px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: red
+}
+
+.checkout-button {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: #ffe54c;
+  margin-bottom: 2rem;
+
+}
+
+.drink-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+  .drink-order {
+    margin-right: 110px;
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+
+  .checkout-button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .checkout-button:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+
+  .checkout-button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+
+  .remove-button {
     font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -12,8 +88,8 @@
     -webkit-user-select: none;
     touch-action: manipulation;
   }
-  
-.remove-button:after {
+
+  .remove-button:after {
     content: "";
     background-color: red;
     width: 100%;
@@ -24,17 +100,9 @@
     left: 3px;
     transition: 0.2s;
   }
-  
-.remove-button:hover:after {
+
+  .remove-button:hover:after {
     top: 0px;
     left: 0px;
   }
-
-  .drink-order {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 110px;
-    margin-left: 110px;
-    margin-top: 10px;
-  }
+}

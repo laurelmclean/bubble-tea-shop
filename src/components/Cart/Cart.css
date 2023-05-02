@@ -1,0 +1,24 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cart-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.cart-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cart-container p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}

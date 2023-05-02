@@ -32,7 +32,7 @@ function Receipt ({ order, removeFromOrder }) {
           ))}
         </ul>
         <h3>Total: {formatPrice(total)}</h3>
-        <button onClick={(e) => {
+        <button className="checkout-button" onClick={(e) => {
                     navigate(`/cart`)}}>Checkout 🛒</button>
       </article>
     );
