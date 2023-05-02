@@ -1,4 +1,3 @@
-/* Header styles */
 .Title header {
   display: flex;
   justify-content: space-between;
@@ -22,7 +21,6 @@
   margin-left: 2.5rem;
 }
 
-/* Navigation styles */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -46,29 +44,42 @@ nav a:hover {
   background-color: #f2f2f2;
 }
 
-/* Active link styles */
 .nav-link-active {
   background-color: #ffe54c;
   color: black;
 }
 
-/* Mobile styles */
-@media only screen and (max-width: 768px) {
+.Title-Subtitle {
+  margin-left: 1rem;
+  text-align: center;
+}
+
+nav {
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.Title header {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #4499df;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* desktop styles */
+@media only screen and (min-width: 768px) {
   .Title-Subtitle {
-    margin-left: 1rem;
-    text-align: center;
+    margin-left: 2.5rem;
+    text-align: left;
   }
 
   nav {
     justify-content: flex-end;
-    margin-top: 1rem;
+    margin-top: 0;
   }
-    .Title header {
-      display: flex;
-      flex-direction: column;
-      padding: 1rem;
-      background-color: #4499df;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
 
+  .Title header {
+    flex-direction: row;
+  }
 }
