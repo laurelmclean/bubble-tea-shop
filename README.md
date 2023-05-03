@@ -24,7 +24,7 @@ The project was built with React, utilizing components and state. It implements 
 
 ### Search
 
-To search for a drink, enter a name into the search bar and click "Search". The results will show the drink image, name, description and price. 
+To search for a drink, enter a name into the search bar. The results will show the drink image, name, description and price. 
 
 ### Add to Order
 
@@ -55,6 +55,10 @@ You may also see any lint errors in the console.
 
 View wireframes on Figma: https://www.figma.com/file/NVp0zYw3Vz0zpQX0RIPVCG/Bubble-Tea-Shop?node-id=0%3A1&t=71Ox1YavxP4glREd-1
 
+![Wireframes1](/wireframe1.png)
+
+![Wireframes2](/wireframe2.png)
+
 ## Run Locally
 
 In the project directory, you can run:
@@ -63,11 +67,12 @@ In the project directory, you can run:
 ## View on Github pages
 
 
-
 ## Screenshots
 
 ### Desktop
 
 
 
+
 ### Mobile
+
