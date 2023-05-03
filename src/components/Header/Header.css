@@ -40,10 +40,6 @@ nav a {
   transition: all 0.2s ease-in-out;
 }
 
-nav a:hover {
-  background-color: #f2f2f2;
-}
-
 .nav-link-active {
   background-color: #ffe54c;
   color: black;
@@ -77,6 +73,10 @@ nav {
   nav {
     justify-content: flex-end;
     margin-top: 0;
+  }
+
+  nav a:hover {
+    background-color: #f2f2f2;
   }
 
   .Title header {
