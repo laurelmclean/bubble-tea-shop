@@ -7,8 +7,10 @@ export default function Header() {
         <section className="Title">
             <header>
                 <div>
-                <h1>🧋 Laurel's Bubble Tea Garden</h1>
-                <h2 className="Title-Subtitle">Where every sip is a delight!</h2>
+                    <NavLink to="/" className="home-link">
+                        <h1>🧋 Laurel's Bubble Tea Garden</h1>
+                    </NavLink>
+                    <h2 className="Title-Subtitle">Where every sip is a delight!</h2>
                 </div>
                 <nav className="menuItems" role="navigation">
                     <NavLink

@@ -28,6 +28,10 @@ img {
 	object-fit: cover;
 }
 
+.About-info p {
+	line-height: 1.5;
+}
+
 /* Large screens desktop */
 @media only screen and (min-width: 768px) {
 	.About {
@@ -41,9 +45,7 @@ img {
 	}
 
 	/* stretch challenge */
-	img {
-		max-width: 100%;
-		height: auto;
-		object-fit: cover;
+	.About img {
+		max-width: 400px;
 	}
 }

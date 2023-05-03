@@ -29,6 +29,12 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    border-color: #4499df;
+    border-width: 0.2rem;
+}
+
+.drinks-column p {
+    line-height: 1.5;
 }
 
 /* Desktop styles */

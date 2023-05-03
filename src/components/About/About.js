@@ -5,11 +5,10 @@ function About() {
     return (
         <article className='About'>
             <figure className="About-image">
-                <img src={`${process.env.PUBLIC_URL}/images/matcha.jpg`}
+                <img src={`${process.env.PUBLIC_URL}/images/mango.jpg`}
                     height="auto"
-                    alt="Matcha Bubble Tea"
+                    alt="Mango Bubble Tea"
                 />
-                <figcaption>Matcha Bubble Tea</figcaption>
             </figure>
             <section className="About-info">
                 <header>
