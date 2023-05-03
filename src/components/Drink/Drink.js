@@ -6,7 +6,7 @@ function Drink(props) {
         const { image, name, price, desc, addToOrder } = props;
         return (
             <article className="menu-drinks">
-                <img src={image} width="150" height="150" alt={name} />
+                <img src={`${process.env.PUBLIC_URL}${image}`} width="150" height="150" alt={name} />
                 <h3 className="drinks-name">
                     {name}
                     <br/>
