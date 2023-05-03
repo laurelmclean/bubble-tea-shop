@@ -66,6 +66,7 @@ In the project directory, you can run:
 
 ## View on Github pages
 
+https://laurelmclean.github.io/bubble-tea-shop/
 
 ## Screenshots
 
