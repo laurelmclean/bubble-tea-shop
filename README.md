@@ -71,8 +71,22 @@ In the project directory, you can run:
 
 ### Desktop
 
+![Desktop Home](/desktop-home.png)
 
+![Desktop Menu](/desktop-menu.png)
 
+![Desktop Cart](/desktop-cart.png)
+
+![Desktop About](/desktop-about.png)
 
 ### Mobile
 
+![Mobile Home](/mobile-home.png)
+
+![Mobile Menu](/mobile-menu.png)
+
+![Mobile Menu2](/mobile-menu2.png)
+
+![Mobile Cart](/mobile-cart.png)
+
+![Mobile About](/mobile-about.png)
