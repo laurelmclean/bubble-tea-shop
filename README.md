@@ -1,6 +1,6 @@
 # Bubble Tea Shop
 
-A Final Project for ACS 2330 creating a React app, Laurel's Bubble Tea Shop, that allows users to view the bubble tea menu, add items to order, and checkout.
+Laurel's Bubble Tea Shop allows users to view the bubble tea menu, add items to order, and checkout.
 
 The project was built with React, utilizing components and state. It implements best practices for responsiveness and accessibility. 
 
@@ -16,9 +16,9 @@ The project was built with React, utilizing components and state. It implements 
 ## Installation
 
 1. Clone the repository to your local machine.
-2. Navigate to the project directory and install dependencies by running npm install.
+2. Navigate to the project directory and install dependencies by running `npm install``.
 3. Start the development server by running npm start.
-4. Open the app in your browser.
+4. Open the app in your browser by running `npm start`.
     
 ## Usage
 
@@ -30,20 +30,6 @@ To search for a drink, enter a name into the search bar. The results will show t
 
 Click add to order to add a drink to your current order. Click 'X' beside the drink name in order summary to remove drink from your order.
 
-## To Run
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.
-You may also see any lint errors in the console.
-
-
-### The images used in this project were sourced from Google.
 
 ## User Stories
 
@@ -59,10 +45,6 @@ View wireframes on Figma: https://www.figma.com/file/NVp0zYw3Vz0zpQX0RIPVCG/Bubb
 
 ![Wireframes2](/wireframe2.png)
 
-## Run Locally
-
-In the project directory, you can run:
-`npm start`
 
 ## View on Github pages
 
